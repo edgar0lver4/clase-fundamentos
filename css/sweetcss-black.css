@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Poppins:wght@200&display=swap');
+*{
+    box-sizing: border-box;
+}
+span, h2,p{
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    background: #000;
+}
+/*****TEXTO*****/
+.text-primary{
+    color:#00779b;
+}
+.text-scondary{
+    color:#888888;
+}
+.text-success{
+    color: #58df00;
+}
+.text-danger{
+    color:#e10000;
+}
+/*******Terjetas********/
+.card{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.card-header{
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    padding: 15px;
+}
+.card-body{
+    padding: 15px;
+    text-align: justify;
+    background: #ffffff;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.border-primary{
+    border:1px solid #0cc7ff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px #0cc7ff;
+}
+.primary-header{
+    background:#0cc7ff;
+}
+
+.border-secondary{
+    border:1px solid #888888;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px #888888;
+}
+.secondary-header{
+    background:#e0e0e0;
+}
+/************************/
+.mg-5{
+    margin:5px;
+}
+.pd-5{
+    padding: 5px;
+}
+.t-bld{
+    font-weight: bold;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.content-center{
+    justify-content: center;
+}
+.position-relative{
+    position: relative;
+}
+.position-absolute{
+    position: absolute;
+}
+.col-1{
+    width: 8.33%;
+}
+.col-2{
+    width: 16.66%;
+}
+.col-3{
+    width: 25%;
+}
+.col-4{
+    width: 33%;
+}
+.col-5{
+    width: 41.65%;
+}
+.col-6{
+    width: 50%;
+}
+.col-7{
+    width: 58.31%;
+}
+.col-8{
+    width: 66.64%;
+}
+.col-9{
+    width: 74.97%;
+}
+.col-10{
+    width: 83.33%;
+}
+.col-11{
+    width: 91.66%;
+}
+.col-12{
+    width: 100%;
+}
+.target{
+    padding:10px;
+    text-align: center;
+    margin:5px;
+    font-family: 'Poppins', sans-serif;
+}
+.violet{
+    background:#c070ff;
+    color:#ffffff;
+}
+.text-flw{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+.border-black{
+    border: 1px solid #000;
+}
+.rotation-clockwise-1s-infinite{
+    -webkit-animation: rotation_horario 1s infinite linear;
+}
+.rotation-clockwise-2s-infinite{
+    -webkit-animation: rotation_horario 2s infinite linear;
+}
+.rotation-clockwise-3s-infinite{
+    -webkit-animation: rotation_horario 3s infinite linear;
+}
+
+.rotation-counterclockwise-1s-infinite{
+    -webkit-animation: rotation-ahorario 1s infinite linear;
+}
+.rotation-counterclockwise-2s-infinite{
+    -webkit-animation: rotation-ahorario 2s infinite linear;
+}
+.rotation-counterclockwise-3s-infinite{
+    -webkit-animation: rotation-ahorario 3s infinite linear;
+}
+@-webkit-kayframes rotation_horario{
+    from{
+        -webkit-transform:rotate(0deg);
+    }
+    to{
+        -webkit-transform:rotate(359deg);
+    }
+}
+@-webkit-kayframes rotation-ahorario{
+    from{
+        -webkit-transform:rotate(0deg);
+    }
+    to{
+        -webkit-transform:rotate(-359deg);
+    }
+}
+@-moz-keyframes rotation_horario{
+    from{
+        -webkit-transform:rotate(0deg);
+    }
+    to{
+        -webkit-transform:rotate(359deg);
+    }
+}
+@-moz-keyframes rotation-ahorario{
+    from{
+        -webkit-transform:rotate(0deg);
+    }
+    to{
+        -webkit-transform:rotate(-359deg);
+    }
+}
