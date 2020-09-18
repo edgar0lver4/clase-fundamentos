@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        *{
+            box-sizing: border-box;
+            padding: 0%;
+            margin: 0%;
+        }
+        .border{
+            border: solid 1px;
+        }        
+        .row{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        /*Para tablets*/
+        @media (min-width: 800px){
+            .col-md-1{
+                width: 50%;
+            }
+            .col-md-2{
+                width: 50%;
+            }
+            .col-md-3{
+                width: 50%;
+            }            
+            .bg-magenta{
+                background: magenta;
+            }
+        }
+        /*Para computadores*/
+        @media (min-width: 992px){
+            .col-lg-1{
+                width: 100%;
+            }
+            .col-lg-2{
+                width: 100%;
+            }
+            .col-lg-3{
+                width: 100%;
+            }                        
+            .bg-lime{
+                background:lime;
+            }
+        }
+        /*Para dispositivos mobiles*/
+        @media (min-width: 578px){
+            .col-sm-1{
+                width: 50%;
+            }
+            .col-sm-2{
+                width: 50%;
+            }
+            .col-sm-3{
+                width: 100%;
+            }                        
+            .bg-violet{
+                background:violet;
+            }
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="row">
+        <div class="border col-sm-1 col-md-1 col-lg-1">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+             Quos consectetur dolorum aliquam, tempore officiis esse porro reiciendis at possimus hic culpa adipisci, ut aliquid nisi aperiam molestias. Dolor, placeat incidunt.
+        </div>
+        <div class="border col-sm-2 col-md-2 col-lg-2">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+             Quos consectetur dolorum aliquam, tempore officiis esse porro reiciendis at possimus hic culpa adipisci, ut aliquid nisi aperiam molestias. Dolor, placeat incidunt.
+        </div>
+        <div class="border col-sm-3 col-md-3 col-lg-3">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+             Quos consectetur dolorum aliquam, tempore officiis esse porro reiciendis at possimus hic culpa adipisci, ut aliquid nisi aperiam molestias. Dolor, placeat incidunt.
+        </div>
+    </div>    
+</body>
+</html>
